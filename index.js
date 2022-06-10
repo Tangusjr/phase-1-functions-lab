@@ -1,7 +1,7 @@
 // Code your solution in this file!
 let hqBlock = 42;
 function distanceFromHqInBlocks(anyValue) {
-  if (Hq >= anyValue) {
+  if (hqBlock >= anyValue) {
     return hqBlock - anyValue;
   } else {
     return anyValue - hqBlock;
